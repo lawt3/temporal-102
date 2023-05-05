@@ -12,4 +12,11 @@ type TranslationWorkflowOutput struct {
 	GoodbyeMessage string
 }
 
-// TODO define structs for Activity input and output here
+type TranslationActivityInput struct {
+	Term         string
+	LanguageCode string
+}
+
+type TranslationActivityOutput struct {
+	Translation string
+}
